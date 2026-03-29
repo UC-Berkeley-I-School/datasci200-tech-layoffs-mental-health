@@ -1,0 +1,48 @@
+// AI Completion tools are forbidden for this class. 
+// You may use the web version to ask questions, but auto-complete LLMs are prohibited. 
+// Do not modify this file.
+{
+    "[python]": {
+        "diffEditor.codeLens": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.wordBasedSuggestions": "off",
+        "files.autoSave": "onFocusChange",
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true
+    },
+    "antigravity.enabled": false,
+    "chat.agent.enabled": false,
+    "cursor.cpp.enable": false,
+    "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": false,
+    "files.exclude": {
+        ".ipynb_checkpoints": true,
+        "**/__pycache__": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/Thumbs.db": true,
+        "*Zone.Identifier": true
+    },
+    "github.copilot.chat.codesearch.enabled": false,
+    "github.copilot.editor.enableCodeActions": false,
+    "github.copilot.enable": {
+        "*": false
+    },
+    "inlineChat.lineEmptyHint": false,
+    "inlineChat.lineNaturalLanguageHint": false,
+    "jupyter.askForKernelRestart": false,
+    "notebook.defaultFormatter": "charliermarsh.ruff",
+    "notebook.formatOnSave.enabled": true,
+    "notebook.lineNumbers": "on",
+    "pylint.enabled": true,
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "ruff.fixAll": true,
+    "ruff.lint.enable": true,
+    "ruff.lineLength": 120,
+    "windsurf.enable": false,
+    "workbench.editor.empty.hint": "hidden"
+}
